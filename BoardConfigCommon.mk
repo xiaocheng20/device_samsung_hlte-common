@@ -92,6 +92,7 @@ TARGET_RECOVERY_SKIP_EV_REL_INPUT := true
 
 # SELinux
 include $(COMMON_PATH)/sepolicy/sepolicy.mk
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Sensors
 TARGET_NO_SENSOR_PERMISSION_CHECK := true
