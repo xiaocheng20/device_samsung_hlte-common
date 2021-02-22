@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FlipFlap
 
+#Jerry Mods 
+PRODUCT_PACKAGES += \
+     init.Jerry.rc
+
 # Gestures
 PRODUCT_PACKAGES += \
     org.lineageos.keyhandler
